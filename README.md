@@ -6,4 +6,4 @@ I am an MSc student at the Weizmann Institute of Science. My goal is to become a
 
 My research focuses on the vaginal microbiome and its correlation with age, BMI, menopause status, and nutrition.
 
-![].(/microbiom.jpg).
+![](microbiom.jpg)
