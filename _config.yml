@@ -2,4 +2,5 @@ theme: jekyll-theme-slate
 title: Hadar's homepage
 description: Hellow everyone, welcome to my page!
 logo: /logo.png
+show_downloads: false
 
