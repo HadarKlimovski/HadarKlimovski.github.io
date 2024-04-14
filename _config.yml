@@ -1,6 +1,7 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-midnight
+permalink: pretty
 title: Hadar's homepage
-description: Hellow everyone, welcome to my page!
+description: Hellow world !!
 logo: /logo.png
 show_downloads: false
 
