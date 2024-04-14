@@ -1,8 +1,6 @@
 theme: jekyll-theme-midnight
 permalink: pretty
 title: Hadar's homepage
-description: Hellow world !!
-markdown: kramdown            
-theme: minima 
+description: "Hellow world!"
 show_downloads: false
 
