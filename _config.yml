@@ -2,6 +2,7 @@ theme: jekyll-theme-midnight
 permalink: pretty
 title: Hadar's homepage
 description: Hellow world !!
-logo: /logo.png
+markdown: kramdown            
+theme: minima 
 show_downloads: false
 
