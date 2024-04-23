@@ -10,5 +10,5 @@ I am doing this project as part of [Eran Segal's](https://www.weizmann.ac.il/mat
 ![](microbiom.jpg)
 
 As part of my MSc I took a Python course, where I learned to make this website in github.
-If you want to create a page on github also click on the following link for more information:[python course](/pyhthon)
+If you want to create a page on github also click on the following link for more information:[python course](/python)
 I recommend you to view in [Meir Sylman's page ](https://meirsylman.github.io/), my friend from this course, Its great!
