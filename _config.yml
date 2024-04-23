@@ -1,6 +1,12 @@
-theme: jekyll-theme-midnight
-permalink: pretty
-title: Hadar's homepage
-description: "Hellow world!"
-show_downloads: false
 
+title: "Hadar's homepage"
+description: "Talk data to me"
+cover_image: '/Computer_science.jpg'
+
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: vszhub/not-pure-poole
+
+include:
+  - README.md  # If you want to make sure README.md is processed
