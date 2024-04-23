@@ -1,12 +1,17 @@
 
 title: "Hadar's homepage"
-description: "Talk data to me"
+description: "Hellow world!"
 cover_image: '/Computer_science.jpg'
+theme: jekyll-theme-midnight
+permalink: pretty
 
 plugins:
   - jekyll-remote-theme
 
-remote_theme: vszhub/not-pure-poole
 
-include:
-  - README.md 
+
+
+
+
+
+
