@@ -2,7 +2,6 @@
 
 # About me
 My name is Hadar, and I am a MSc student at the Weizmann Institute of Science.
-![](me.jpg)
 
 # My reserch project
 My research focuses on the vaginal microbiome and its correlation with age, BMI, menopause status, and nutrition.
