@@ -12,5 +12,6 @@ I am doing this project as part of [Eran Segal's](https://www.weizmann.ac.il/mat
 
 # Python course 2024
 As part of my MSc I took a Python course, where I learned to make this website in github.
-If you want to create a page on github also click on the following link for more information:[python course](/python)
+If you want to create a page on github also click on the following link for more information:[python course](/python), also you can view my [assigmnet[(https://github.com/HadarKlimovski/HadarsAssignments/tree/main/day02) and ged some ideas 
 I recommend you to view in [Meir Sylman's page ](https://meirsylman.github.io/), my friend from this course, Its great!
+
