@@ -5,6 +5,7 @@ description: "Welcome to my page"
 cover_image: '/Computer_science.jpg'
 theme: jekyll-theme-Minimal
 permalink: pretty
+show_downloads : True
 
 plugins:
   - jekyll-remote-theme
