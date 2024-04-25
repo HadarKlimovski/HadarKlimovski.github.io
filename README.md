@@ -5,7 +5,7 @@
 
 ### Education
 - B.Sc. in Life science, Bar Ilan University, Ramat Gan, Israel.
-- M.Sc student in life sciences, Weizmann Istitue of science, Israel.
+- M.Sc student in life sciences, Weizmann Institue of science, Israel.
 
 ### My reserch project
 My research focuses on the vaginal microbiome and its correlation with age, BMI, menopause status, and nutrition.
