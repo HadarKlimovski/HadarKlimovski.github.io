@@ -1,8 +1,9 @@
 
 title: "Hadar's homepage"
+logo : '/me.jpg'
 description: "Hellow world!"
 cover_image: '/Computer_science.jpg'
-theme: jekyll-theme-midnight
+theme: jekyll-theme-Minimal
 permalink: pretty
 
 plugins:
