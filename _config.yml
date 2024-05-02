@@ -1,6 +1,6 @@
 
 title: "Hadar's homepage"
-logo : ('/me.jpg'){: style="border-radius: 50%; width: 100px; height: 100px;"}
+logo : '/me.jpg'
 description: "Welcome to my page"
 theme: jekyll-theme-Minimal
 permalink: pretty
