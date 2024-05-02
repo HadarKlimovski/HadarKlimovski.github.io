@@ -1,6 +1,7 @@
 
 title: "Hadar's homepage"
 logo : '/me.jpg'
+![Logo](/me.jpg){: style="border-radius: 50%; width: 100px; height: 100px;"}
 description: "Welcome to my page"
 cover_image: '/Computer_science.jpg'
 theme: jekyll-theme-Minimal
