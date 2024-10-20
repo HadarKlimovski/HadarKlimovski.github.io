@@ -15,7 +15,7 @@ from sklearn.preprocessing import LabelBinarizer
 import os
 from utils import load_discovery_data_for_classification
 from configs import MY_DIR
-#
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # MY directory 
 os.makedirs(MY_DIR, exist_ok=True)
 
@@ -66,7 +66,7 @@ def build_xgboost_model(custom_params=None):
 # Split to train and test 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=seed)
 
-#----- ----- ----- ----- ----- Model 1: RFECV ----- ----- ----- ----- ----- ----- ----- ----- -----
+#----- ----- ----- ----- -----  -----  -----  -----  -----  ----- Model 1: RFECV ----- ----- ----- ----- ----- ----- ----- ----- -----  -----  ----- ----- ----- ----- ----- ----- -----
 #  Perform RFECV and extract optimal features
 def perform_rfecv(model, X_train, y_train, cv):
     """
@@ -125,7 +125,7 @@ def plot_rfecv_scores(cv_scores, n_features_selected):
     plt.savefig(os.path.join(MY_DIR, 'RFECV_number_of_features_vs_roc_auc.png'), bbox_inches='tight', dpi=300)
     plt.close()
 
-#----- ----- ----- ----- ----- Model 2: Classification(cv=3) ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+#----- ----- ----- ----- ----- ----- ----- ----- ----- Model 2: Classification(cv=3) ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
 # Train the model using CV and plot ROC-AUC with class-specific colors
 def train_model_with_cv(model, X_train, y_train, selected_features, n_splits=cv, custom_n_features=None):
@@ -203,7 +203,7 @@ def train_model_with_cv(model, X_train, y_train, selected_features, n_splits=cv,
 
         plot_multiclass_roc_curves(model, X_train_selected, y_train, StratifiedKFold(n_splits=cv), n_classes=len(class_names), class_names=class_names)
 
-#----- ----- ----- ----- ----- Model 3: classification (no split)----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+#----- ----- ----- ----- ----- ----- ----- ----- ----- -----  Model 3: classification (no split)-----  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
 # Train the model without cross-validation and calculate ROC-AUC on the test set
 def train_model_without_cv_and_calculate_scores(model, X_train_selected, y_train, X_test_selected, y_test):
@@ -228,7 +228,7 @@ def train_model_without_cv_and_calculate_scores(model, X_train_selected, y_train
     print(f"ROC-AUC (macro, ovr): {roc_auc_ovr_macro}")
     print(f"ROC-AUC (weighted, ovr): {roc_auc_ovr_weighted}")
 
-#---------------------------------------------------------
+#-------------------------------------------------------------------------------------------------
 # Function to plot and save confusion matrix
 def evaluate_confusion_matrix(model, X_test_selected, y_test, class_names):
     """
@@ -302,7 +302,7 @@ def plot_and_save_confusion_matrix(cnf_matrix, class_names):
     plt.xticks(fontsize=15)
     plt.close()
 
-#-------------------------------Define parameters for the models----------------------------------------------------------------
+#---------------------------------------------------Define parameters for the models----------------------------------------------------------------
 
 # Parameters for model 1
 rfecv_params = {
@@ -352,7 +352,7 @@ final_model_params = {
         'random_state': seed
 }
 
-#------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------------
 # model 1:
 rfecv_model = build_xgboost_model(rfecv_params)
 selected_features_mask, rfecv = perform_rfecv(rfecv_model, X_train, y_train, cv=cv)
