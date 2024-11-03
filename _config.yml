@@ -1,18 +1,17 @@
-
-title: "Hadar's homepage"
-as : "font"
-type : "font/woff2"
-logo : '/me.jpg'
+title: "Hadar's Homepage"
 description: "Welcome to my page"
-theme: jekyll-theme-Minimal
+theme: jekyll-theme-minimal
 permalink: pretty
-show_downloads : True
+show_downloads: true
 
+# Add plugins if necessary
 plugins:
   - jekyll-remote-theme
 
-
-
+# Add a custom CSS file to include Google Fonts
+remote_theme: pages-themes/minimal@v0.2.0
+include:
+  - assets/css/style.css
 
 
 
