@@ -1,15 +1,15 @@
-title: "Hadar's Homepage"
-description: "Welcome to my page"
-theme: jekyll-theme-minimal
-permalink: pretty
-show_downloads: true
+i want to improve my git page.
+can you provoide me a better font ?
 
-# Add plugins if necessary
+title: "Hadar's homepage"
+logo : '/me.jpg'
+description: "Welcome to my page"
+theme: jekyll-theme-Minimal
+permalink: pretty
+show_downloads : True
+
 plugins:
   - jekyll-remote-theme
-
-
-
 
 
 
