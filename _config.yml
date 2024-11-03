@@ -1,5 +1,7 @@
 
 title: "Hadar's homepage"
+as : "font"
+type : "font/woff2"
 logo : '/me.jpg'
 description: "Welcome to my page"
 theme: jekyll-theme-Minimal
