@@ -5,6 +5,4 @@ theme: jekyll-theme-Minimal
 permalink: pretty
 show_downloads : True
 
-plugins:
-  - jekyll-remote-theme
 
