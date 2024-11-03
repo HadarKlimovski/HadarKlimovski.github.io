@@ -8,10 +8,7 @@ show_downloads: true
 plugins:
   - jekyll-remote-theme
 
-# Add a custom CSS file to include Google Fonts
-remote_theme: pages-themes/minimal@v0.2.0
-include:
-  - assets/css/style.css
+
 
 
 
