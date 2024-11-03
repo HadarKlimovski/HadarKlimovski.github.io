@@ -1,13 +1,15 @@
-title: "Hadar's homepage"
-#logo : '/me.jpg'
+title: "Hadar's Homepage"
+logo: '/me.jpg'
 description: "Welcome to my page"
-theme: jekyll-theme-Minimal
+theme: jekyll-theme-minimal
 permalink: pretty
-show_downloads : True
+show_downloads: true
 
 plugins:
   - jekyll-remote-theme
 
-
+# Link the custom CSS file
+include:
+  - assets/css/style.css
 
 
