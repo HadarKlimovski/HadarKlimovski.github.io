@@ -3,7 +3,5 @@ logo : '/logo.jpg'
 description: "Welcome to my page"
 theme: jekyll-theme-Minimal
 permalink: pretty
-show_downloads : True
-
-plugins:
-  - jekyll-remote-theme
+show_downloads : False
+title_align: center
