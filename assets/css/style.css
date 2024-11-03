@@ -1,0 +1,25 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply font to the body */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Title Styling */
+h1, .site-title {
+    color: #3b5998; /* Choose any color for the title */
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* Description Styling */
+.site-description {
+    color: #666666;
+    font-size: 1.2em;
+}
+
+/* Link Color */
+a {
+    color: #1e90ff;
+}
