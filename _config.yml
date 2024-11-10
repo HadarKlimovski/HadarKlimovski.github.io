@@ -1,5 +1,5 @@
 title: "Hadar's homepage"
-logo : '/logo.jpg'
+#logo : '/logo.jpg'
 #description: "Welcome to my page"
 theme: jekyll-theme-Minimal
 permalink: pretty
