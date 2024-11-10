@@ -1,7 +1,7 @@
 
 # Data scientist 
 
-
+<img src="logo.jpg" align="left" width="200" style="border-radius: 50%; margin-right: 10px;">
 ### Education
 - B.Sc. in Life science, Bar Ilan University, Ramat Gan, Israel.
 - M.Sc student in life sciences, Weizmann Institue of science, Israel.
