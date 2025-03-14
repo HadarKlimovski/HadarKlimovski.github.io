@@ -1,7 +1,9 @@
 title: "Hadar Klimovski"
-#logo : '/logo.jpg'
-#description: "Welcome to my page"
+description: "Welcome to my personal space!"
 theme: jekyll-theme-modernist
 permalink: pretty
-show_downloads : False
+show_downloads: false
 title_align: center
+
+# Customize colors (only works if you create a CSS file)
+custom_css: "style.css"
