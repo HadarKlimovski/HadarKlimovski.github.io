@@ -1,25 +1,25 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: lightblue;
     text-align: center;
-    color: #333;
+    color: purple;
 }
 
 h1 {
-    color: #e63946;
+    color: blue;
     font-size: 2.5em;
 }
 
 h2 {
-    color: #457b9d;
+    color: blue;
 }
 
 a {
-    color: #1d3557;
+    color: blue;
     font-weight: bold;
     text-decoration: none;
 }
 
 a:hover {
-    color: #e63946;
+    color: blue;
 }
