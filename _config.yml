@@ -5,5 +5,3 @@ permalink: pretty
 show_downloads: false
 title_align: center
 
-# Customize colors (only works if you create a CSS file)
-custom_css: "style.css"
