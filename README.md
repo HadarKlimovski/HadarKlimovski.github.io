@@ -1,5 +1,6 @@
 
-<img src="me.jpeg" align="right" width="200" style="border-radius: 30%; margin-right: 5px;">
+
+<img src="me.jpeg" align="right" width="200" width="200" style="border-radius: 50%;">
 
 
 ## About me
