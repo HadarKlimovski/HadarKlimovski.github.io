@@ -1,8 +1,6 @@
 title: "Hadar Klimovski"
 
 
-theme : jekyll-remote-theme 
-permalink: pretty
 show_downloads: false
-title_align: center
+theme: jekyll-theme-architect
 
